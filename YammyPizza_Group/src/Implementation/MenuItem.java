@@ -8,13 +8,13 @@ public class MenuItem {
 	//setup pizza class for the combination of calorie & price info
 	public static class Pizza{
 		//define all variables
-		public String pizzaSize;
-		public String pizzaBase;
-		public String pizzaSauce;
-		public String pizzaTopping;
-		public String pizzaSubtypes;
-		public int pizzaCalorie;
-		public int pizzaPrice;
+		public String pizzaSize = "";
+		public String pizzaBase = "";
+		public String pizzaSauce = "";
+		public String pizzaTopping = "";
+		public String pizzaSubtypes = "";
+		public int pizzaCalorie = 0;
+		public int pizzaPrice = 0;
 		
 		//input calorie & price info into the pizza combination
 		public int VerifyPrice() {
@@ -100,7 +100,7 @@ public class MenuItem {
 	
 		public int VerifyCalorie() {
 			
-			int calorie = 0;
+			int calorie = 404;
 			
 			//combination of pizzaTopping & pizzaSubtypes
 			

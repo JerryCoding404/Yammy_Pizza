@@ -7,9 +7,9 @@ public class OrderDetail {
 	//and the food ordered (to the kitchen)
 	//and the ingredient used (to the inventory control system)
 	public int customerOrderID = 1;
-	public String[] orderDescription;
-	public int[] orderIncome;
-	public String[] orderIngredientUsed;
+	public String[] orderDescription = new String[10];
+	public int[] orderIncome = new int[10];
+	public String[] orderIngredientUsed = new String[10];
 	
 	
 	public static void main(String[] args) {
